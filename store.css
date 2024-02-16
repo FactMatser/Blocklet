@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Make navigation slightly blurred */
+    backdrop-filter: blur(5px);
+    /* Apply blur effect */
+    padding: 10px;
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: center;
+    /* Center items vertically */
+}
+
+nav .logo {
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Use flexbox */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding: 100px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.shelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.item h3 {
+    margin-top: 10px;
+}
+
+.item p {
+    margin: 10px 0;
+}
+
+.item button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #555;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Make navigation slightly blurred */
+    backdrop-filter: blur(5px);
+    /* Apply blur effect */
+    padding: 10px;
+    display: flex;
+    /* Align items horizontally */
+    justify-content: space-between;
+    /* Align items at the start and end */
+}
+
+nav .logo img {
+    width: 50px;
+    /* Adjust the width of the logo */
+    margin-right: 20px;
+    /* Add space between the logo and nav items */
+}
+
+.more-info {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.more-info {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.more-info:hover {
+    background-color: #555;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-color: #f0f0f0;
+}

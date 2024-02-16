@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header {
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Add your previous CSS here */
+
+/* News Shelf Styles */
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.news-item {
+    flex-basis: calc(50% - 10px);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.news-item:nth-child(odd) {
+    margin-right: 10px;
+}
+
+/* Add your previous CSS here */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-color: #f0f0f0;
+}
+
+
+.blockletnet img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.centered-image {
+    max-width: 40%;
+    /* Adjust the maximum width of the image */
+    max-height: 20vh;
+    /* Adjust the maximum height of the image */
+}
+
+
+.shelf {
+    display: flex;
+    /* Use flexbox */
+    justify-content: space-between;
+    /* Distribute space between news items */
+    width: 800px;
+    /* Adjust the width of the shelf container */
+    margin-bottom: 20px;
+    /* Add space between shelves */
+}
+
+.news-item {
+    width: calc(50% - 10px);
+    /* Calculate the width of each news item */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Ensure both news items within each shelf have the same height */
+.shelf .news-item {
+    flex-grow: 1;
+    /* Allow news items to grow to fill available space */
+}
+
+/*news items*/
+.news-shelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shelf {
+    margin-bottom: 20px;
+    /* Add space between shelves */
+}
+
+.news-pair {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    /* Adjust the width of the news pair container */
+}
+
+.news-item {
+    width: calc(50% - 10px);
+    /* Calculate the width of each news item */
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/*over*/
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .news-item {
+        width: calc(100% - 20px);
+    }
+}
+
+.welcome-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.welcome-content {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-text {
+    margin-left: 20px;
+}
+
+.welcome-text h2 {
+    color: #333;
+}
+
+.welcome-text p {
+    color: #666;
+}
+
+
+/* Rest of your CSS styles */
